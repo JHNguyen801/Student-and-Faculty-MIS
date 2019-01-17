@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="207" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="nameField" alignment="0" pref="213" max="32767" attributes="1"/>
+                                      <Component id="addressField" alignment="0" max="32767" attributes="1"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="dateOfHireMonth" alignment="0" min="-2" pref="64" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="74" pref="74" max="74" attributes="0"/>
+                                          <Component id="dateOfHireDay" min="-2" pref="64" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="144" pref="144" max="144" attributes="0"/>
+                                          <Component id="dateOfHireYear" min="-2" pref="64" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="dateOfTerminationMonth" alignment="0" min="-2" pref="64" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="144" pref="144" max="144" attributes="0"/>
+                                          <Component id="dateOfTerminationYear" min="-2" pref="64" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="dateOfBirthMonth" min="-2" pref="64" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="dateOfBirthDay" min="-2" pref="64" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="dateOfBirthYear" min="-2" pref="64" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="snnField" alignment="0" max="32767" attributes="1"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="74" pref="74" max="74" attributes="0"/>
+                                          <Component id="dateOfTerminationDay" min="-2" pref="64" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="jLabel13" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="salaryField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="statusComboBox" alignment="0" pref="113" max="32767" attributes="1"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="28" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="saveButton" max="32767" attributes="1"/>
+                                  <Component id="clearButton" alignment="1" max="32767" attributes="1"/>
+                                  <Component id="closeButton" alignment="1" pref="63" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="addCourseButton" alignment="1" min="-2" pref="110" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane1" alignment="0" min="-2" pref="444" max="-2" attributes="0"/>
+                          <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nameField" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="saveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="addressField" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="clearButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="snnField" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                          <Component id="closeButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="addCourseButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dateOfBirthMonth" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dateOfHireMonth" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dateOfTerminationMonth" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="dateOfBirthDay" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="dateOfHireDay" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="dateOfTerminationDay" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="dateOfBirthYear" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="dateOfHireYear" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="dateOfTerminationYear" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="statusComboBox" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                  <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                  <Component id="salaryField" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="128" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add Faculty Information"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nameField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="addressField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Social Security Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="snnField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date of Birth"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="dateOfBirthMonth">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel type="list">
+            <ListItem value="Jan"/>
+            <ListItem value="Feb"/>
+            <ListItem value="Mar"/>
+            <ListItem value="Apr"/>
+            <ListItem value="June"/>
+            <ListItem value="Jul"/>
+            <ListItem value="Aug"/>
+            <ListItem value="Sep"/>
+            <ListItem value="Oct"/>
+            <ListItem value="Nov"/>
+            <ListItem value="Dec"/>
+          </SpinnerModel>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="dateOfBirthDay">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel type="list">
+            <ListItem value="01"/>
+            <ListItem value="02"/>
+            <ListItem value="03"/>
+            <ListItem value="04"/>
+            <ListItem value="05"/>
+            <ListItem value="06"/>
+            <ListItem value="07"/>
+            <ListItem value="08"/>
+            <ListItem value="09"/>
+            <ListItem value="10"/>
+            <ListItem value="11"/>
+            <ListItem value="12"/>
+            <ListItem value="13"/>
+            <ListItem value="14"/>
+            <ListItem value="15"/>
+            <ListItem value="16"/>
+            <ListItem value="17"/>
+            <ListItem value="18"/>
+            <ListItem value="19"/>
+            <ListItem value="20"/>
+            <ListItem value="21"/>
+            <ListItem value="22"/>
+            <ListItem value="23"/>
+            <ListItem value="24"/>
+            <ListItem value="25"/>
+            <ListItem value="26"/>
+            <ListItem value="27"/>
+            <ListItem value="28"/>
+            <ListItem value="29"/>
+            <ListItem value="30"/>
+            <ListItem value="31"/>
+          </SpinnerModel>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="dateOfBirthYear">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel type="list">
+            <ListItem value="1950"/>
+            <ListItem value="1951"/>
+            <ListItem value="1952"/>
+            <ListItem value="1953"/>
+            <ListItem value="1954"/>
+            <ListItem value="1955"/>
+            <ListItem value="1956"/>
+            <ListItem value="1957"/>
+            <ListItem value="1958"/>
+            <ListItem value="1959"/>
+            <ListItem value="1960"/>
+            <ListItem value="1961"/>
+            <ListItem value="1962"/>
+            <ListItem value="1963"/>
+            <ListItem value="1964"/>
+            <ListItem value="1965"/>
+            <ListItem value="1966"/>
+            <ListItem value="1967"/>
+            <ListItem value="1968"/>
+            <ListItem value="1969"/>
+            <ListItem value="1970"/>
+            <ListItem value="1971"/>
+            <ListItem value="1972"/>
+            <ListItem value="1973"/>
+            <ListItem value="1974"/>
+            <ListItem value="1975"/>
+            <ListItem value="1976"/>
+            <ListItem value="1977"/>
+            <ListItem value="1978"/>
+            <ListItem value="1979"/>
+            <ListItem value="1980"/>
+            <ListItem value="1981"/>
+            <ListItem value="1982"/>
+            <ListItem value="1983"/>
+            <ListItem value="1984"/>
+            <ListItem value="1985"/>
+            <ListItem value="1986"/>
+            <ListItem value="1987"/>
+            <ListItem value="1988"/>
+            <ListItem value="1989"/>
+            <ListItem value="1990"/>
+            <ListItem value="1991"/>
+            <ListItem value="1992"/>
+            <ListItem value="1993"/>
+            <ListItem value="1994"/>
+            <ListItem value="1995"/>
+            <ListItem value="1996"/>
+            <ListItem value="1997"/>
+            <ListItem value="1998"/>
+            <ListItem value="1999"/>
+            <ListItem value="2000"/>
+            <ListItem value="2001"/>
+            <ListItem value="2002"/>
+            <ListItem value="2003"/>
+            <ListItem value="2004"/>
+            <ListItem value="2005"/>
+            <ListItem value="2006"/>
+            <ListItem value="2007"/>
+            <ListItem value="2008"/>
+            <ListItem value="2009"/>
+            <ListItem value="2010"/>
+            <ListItem value="2011"/>
+            <ListItem value="2012"/>
+            <ListItem value="2013"/>
+            <ListItem value="2014"/>
+            <ListItem value="2015"/>
+            <ListItem value="2016"/>
+            <ListItem value="2017"/>
+            <ListItem value="2018"/>
+            <ListItem value="2019"/>
+          </SpinnerModel>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Year"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Month"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Day"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="dateOfHireMonth">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel type="list">
+            <ListItem value="Jan"/>
+            <ListItem value="Feb"/>
+            <ListItem value="Mar"/>
+            <ListItem value="Apr"/>
+            <ListItem value="June"/>
+            <ListItem value="Jul"/>
+            <ListItem value="Aug"/>
+            <ListItem value="Sep"/>
+            <ListItem value="Oct"/>
+            <ListItem value="Nov"/>
+            <ListItem value="Dec"/>
+          </SpinnerModel>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="dateOfHireDay">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel type="list">
+            <ListItem value="01"/>
+            <ListItem value="02"/>
+            <ListItem value="03"/>
+            <ListItem value="04"/>
+            <ListItem value="05"/>
+            <ListItem value="06"/>
+            <ListItem value="07"/>
+            <ListItem value="08"/>
+            <ListItem value="09"/>
+            <ListItem value="10"/>
+            <ListItem value="11"/>
+            <ListItem value="12"/>
+            <ListItem value="13"/>
+            <ListItem value="14"/>
+            <ListItem value="15"/>
+            <ListItem value="16"/>
+            <ListItem value="17"/>
+            <ListItem value="18"/>
+            <ListItem value="19"/>
+            <ListItem value="20"/>
+            <ListItem value="21"/>
+            <ListItem value="22"/>
+            <ListItem value="23"/>
+            <ListItem value="24"/>
+            <ListItem value="25"/>
+            <ListItem value="26"/>
+            <ListItem value="27"/>
+            <ListItem value="28"/>
+            <ListItem value="29"/>
+            <ListItem value="30"/>
+            <ListItem value="31"/>
+          </SpinnerModel>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="dateOfHireYear">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel type="list">
+            <ListItem value="1950"/>
+            <ListItem value="1951"/>
+            <ListItem value="1952"/>
+            <ListItem value="1953"/>
+            <ListItem value="1954"/>
+            <ListItem value="1955"/>
+            <ListItem value="1956"/>
+            <ListItem value="1957"/>
+            <ListItem value="1958"/>
+            <ListItem value="1959"/>
+            <ListItem value="1960"/>
+            <ListItem value="1961"/>
+            <ListItem value="1962"/>
+            <ListItem value="1963"/>
+            <ListItem value="1964"/>
+            <ListItem value="1965"/>
+            <ListItem value="1966"/>
+            <ListItem value="1967"/>
+            <ListItem value="1968"/>
+            <ListItem value="1969"/>
+            <ListItem value="1970"/>
+            <ListItem value="1971"/>
+            <ListItem value="1972"/>
+            <ListItem value="1973"/>
+            <ListItem value="1974"/>
+            <ListItem value="1975"/>
+            <ListItem value="1976"/>
+            <ListItem value="1977"/>
+            <ListItem value="1978"/>
+            <ListItem value="1979"/>
+            <ListItem value="1980"/>
+            <ListItem value="1981"/>
+            <ListItem value="1982"/>
+            <ListItem value="1983"/>
+            <ListItem value="1984"/>
+            <ListItem value="1985"/>
+            <ListItem value="1986"/>
+            <ListItem value="1987"/>
+            <ListItem value="1988"/>
+            <ListItem value="1989"/>
+            <ListItem value="1990"/>
+            <ListItem value="1991"/>
+            <ListItem value="1992"/>
+            <ListItem value="1993"/>
+            <ListItem value="1994"/>
+            <ListItem value="1995"/>
+            <ListItem value="1996"/>
+            <ListItem value="1997"/>
+            <ListItem value="1998"/>
+            <ListItem value="1999"/>
+            <ListItem value="2000"/>
+            <ListItem value="2001"/>
+            <ListItem value="2002"/>
+            <ListItem value="2003"/>
+            <ListItem value="2004"/>
+            <ListItem value="2005"/>
+            <ListItem value="2006"/>
+            <ListItem value="2007"/>
+            <ListItem value="2008"/>
+            <ListItem value="2009"/>
+            <ListItem value="2010"/>
+            <ListItem value="2011"/>
+            <ListItem value="2012"/>
+            <ListItem value="2013"/>
+            <ListItem value="2014"/>
+            <ListItem value="2015"/>
+            <ListItem value="2016"/>
+            <ListItem value="2017"/>
+            <ListItem value="2018"/>
+            <ListItem value="2019"/>
+          </SpinnerModel>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="dateOfTerminationMonth">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel type="list">
+            <ListItem value="Jan"/>
+            <ListItem value="Feb"/>
+            <ListItem value="Mar"/>
+            <ListItem value="Apr"/>
+            <ListItem value="June"/>
+            <ListItem value="Jul"/>
+            <ListItem value="Aug"/>
+            <ListItem value="Sep"/>
+            <ListItem value="Oct"/>
+            <ListItem value="Nov"/>
+            <ListItem value="Dec"/>
+          </SpinnerModel>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="dateOfTerminationDay">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel type="list">
+            <ListItem value="01"/>
+            <ListItem value="02"/>
+            <ListItem value="03"/>
+            <ListItem value="04"/>
+            <ListItem value="05"/>
+            <ListItem value="06"/>
+            <ListItem value="07"/>
+            <ListItem value="08"/>
+            <ListItem value="09"/>
+            <ListItem value="10"/>
+            <ListItem value="11"/>
+            <ListItem value="12"/>
+            <ListItem value="13"/>
+            <ListItem value="14"/>
+            <ListItem value="15"/>
+            <ListItem value="16"/>
+            <ListItem value="17"/>
+            <ListItem value="18"/>
+            <ListItem value="19"/>
+            <ListItem value="20"/>
+            <ListItem value="21"/>
+            <ListItem value="22"/>
+            <ListItem value="23"/>
+            <ListItem value="24"/>
+            <ListItem value="25"/>
+            <ListItem value="26"/>
+            <ListItem value="27"/>
+            <ListItem value="28"/>
+            <ListItem value="29"/>
+            <ListItem value="30"/>
+            <ListItem value="31"/>
+          </SpinnerModel>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="dateOfTerminationYear">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel type="list">
+            <ListItem value="1950"/>
+            <ListItem value="1951"/>
+            <ListItem value="1952"/>
+            <ListItem value="1953"/>
+            <ListItem value="1954"/>
+            <ListItem value="1955"/>
+            <ListItem value="1956"/>
+            <ListItem value="1957"/>
+            <ListItem value="1958"/>
+            <ListItem value="1959"/>
+            <ListItem value="1960"/>
+            <ListItem value="1961"/>
+            <ListItem value="1962"/>
+            <ListItem value="1963"/>
+            <ListItem value="1964"/>
+            <ListItem value="1965"/>
+            <ListItem value="1966"/>
+            <ListItem value="1967"/>
+            <ListItem value="1968"/>
+            <ListItem value="1969"/>
+            <ListItem value="1970"/>
+            <ListItem value="1971"/>
+            <ListItem value="1972"/>
+            <ListItem value="1973"/>
+            <ListItem value="1974"/>
+            <ListItem value="1975"/>
+            <ListItem value="1976"/>
+            <ListItem value="1977"/>
+            <ListItem value="1978"/>
+            <ListItem value="1979"/>
+            <ListItem value="1980"/>
+            <ListItem value="1981"/>
+            <ListItem value="1982"/>
+            <ListItem value="1983"/>
+            <ListItem value="1984"/>
+            <ListItem value="1985"/>
+            <ListItem value="1986"/>
+            <ListItem value="1987"/>
+            <ListItem value="1988"/>
+            <ListItem value="1989"/>
+            <ListItem value="1990"/>
+            <ListItem value="1991"/>
+            <ListItem value="1992"/>
+            <ListItem value="1993"/>
+            <ListItem value="1994"/>
+            <ListItem value="1995"/>
+            <ListItem value="1996"/>
+            <ListItem value="1997"/>
+            <ListItem value="1998"/>
+            <ListItem value="1999"/>
+            <ListItem value="2000"/>
+            <ListItem value="2001"/>
+            <ListItem value="2002"/>
+            <ListItem value="2003"/>
+            <ListItem value="2004"/>
+            <ListItem value="2005"/>
+            <ListItem value="2006"/>
+            <ListItem value="2007"/>
+            <ListItem value="2008"/>
+            <ListItem value="2009"/>
+            <ListItem value="2010"/>
+            <ListItem value="2011"/>
+            <ListItem value="2012"/>
+            <ListItem value="2013"/>
+            <ListItem value="2014"/>
+            <ListItem value="2015"/>
+            <ListItem value="2016"/>
+            <ListItem value="2017"/>
+            <ListItem value="2018"/>
+            <ListItem value="2019"/>
+          </SpinnerModel>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date of Hire"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date of Termination"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="statusComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="Full Time"/>
+            <StringItem index="1" value="Part Time"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Status"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salary"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter Single Digits, no spaces, no commas"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add Classes for Faculty"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="jTextPane1">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="saveButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="clearButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clear"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clearButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="closeButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Exit"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="closeButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="salaryField">
+    </Component>
+    <Component class="javax.swing.JButton" name="addCourseButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add Courses"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addCourseButtonActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
